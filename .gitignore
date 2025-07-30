@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+
+# Env
+.env
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+
+# VS Code / PyCharm / JetBrains
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logai
+*.log
+
+# Test coverage
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# migrations galima neignoruoti, nebent migruoji automatiškai
