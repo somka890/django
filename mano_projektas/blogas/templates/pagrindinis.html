@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ pavadinimas }}</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-</head>
-<body>
-<h1>{{ antraste }}</h1>
-<p>Šis puslapis sukurtas naudojant Django šabloną.</p>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block "title" %}{{ pavadinimas }}{% endblock %}
+
+{% block "content" %}
+
+{% endblock %}
