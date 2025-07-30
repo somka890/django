@@ -9,3 +9,10 @@ def pagrindinis(request):
         'antraste': 'Sveiki atvykę!'
     }
     return render(request, 'pagrindinis.html', kontekstas)
+
+def apie(request):
+    context = {
+        "tekstas": "Čia yra mano svetainė, kurioje demonstruoju, kaip veikia Django viewsai ir šablonai.",
+        "pavadinimas": "apie",
+    }
+    return render(request, template_name='apie.html', context=context)
